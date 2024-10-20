@@ -1,0 +1,179 @@
+[
+    {
+        "Folder" : "Landing",
+        "Feeds": [
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/landing"
+            }
+        ]
+    },
+    {
+        "Folder": "Developer",
+        "Feeds": [
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/visualstudio/feed"
+            },
+            {
+                "FeedUrl" : "https://code.visualstudio.com/feed.xml"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/devops/feed/"
+            },
+            {
+                "FeedUrl" : "https://blogs.windows.com/windowsdeveloper/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/premier-developer/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/ise/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/engineering-at-microsoft/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/azure-sdk/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/commandline/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/performance-diagnostics/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/i18n/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/react-native/feed/"
+            }
+        ]
+    },
+    {
+        "Folder": "Technology",
+        "Feeds": [
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/directx/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/openapi/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/semantic-kernel/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/surface-duo/feed/"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/windowsai/feed/"
+            }
+        ]
+    },
+    {
+        "Folder": ".NET",
+        "Feeds": [
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/dotnet-aspire/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/maui/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/ai/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/aspnetcore/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/blazor/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/entity-framework/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/maintenance-and-updates/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet-ch/feed"
+            }
+        ]
+    },
+    {
+        "Folder": "Languages",
+        "Feeds": [
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/cppblog/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/csharp/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/dotnet/category/fsharp/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/typescript/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/powershell-community/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/powershell/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/python/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/visualstudio/tag/javascript/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/java/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/java-ch/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/go/feed"
+            }
+        ]
+    },
+    {
+        "Folder": "Platform Development",
+        "Feeds": [
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/ifdef-windows/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/azuregov/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/azure-vm-runtime/feed"
+            },
+            {
+                "FeedUrl" : "https://blogs.bing.com/Engineering-Blog/feed"
+            },
+            {
+                "FeedUrl" : "https://blogs.windows.com/msedgedev/feed"
+            },
+            {
+                "FeedUrl" : "https://azure.microsoft.com/blog/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/identity/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/microsoft365dev/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/oldnewthing/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/powerplatform/feed"
+            },
+            {
+                "FeedUrl" : "https://devblogs.microsoft.com/windows-music-dev/feed"
+            }
+        ]
+    }
+]

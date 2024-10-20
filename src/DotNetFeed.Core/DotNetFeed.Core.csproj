@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DotNetFeed</RootNamespace>
+    <IsAotCompatible>true</IsAotCompatible>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DrasticActions.UI" />
+    <PackageReference Include="JsonFeed.NET" />
+    <PackageReference Include="Sagara.FeedReader" />
+    <PackageReference Include="Drastic.sqlite-net-base" />
+    <PackageReference Include="SQLitePCLRaw.bundle_green" />
+    <PackageReference Include="System.Text.Json" />
+    <PackageReference Include="RazorBlade" ExcludeAssets="compile;runtime" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
