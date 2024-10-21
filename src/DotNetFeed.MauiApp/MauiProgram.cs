@@ -1,5 +1,7 @@
-﻿using DA.UI.Tools;
+﻿using DA.UI.Services;
+using DA.UI.Tools;
 using DotNetFeed.Services;
+using DotNetFeed.ViewModels;
 using Microsoft.Extensions.Logging;
 
 namespace DotNetFeed;
@@ -19,12 +21,14 @@ public static class MauiProgram
 		}
 		var appDispatcher = new AppDispatcher();
 		var errorHandler = new ErrorHandler();
-		var databaseService = new DatabaseService(databasePath, errorHandler);
-		databaseService.InitializeAsync().FireAndForgetSafeAsync(errorHandler);
+		var databaseService = new DatabaseService(databasePath, errorHandler, true);
 		var builder = MauiApp.CreateBuilder();
-		builder.Services.AddSingleton<AppDispatcher>(appDispatcher);
-		builder.Services.AddSingleton<ErrorHandler>(errorHandler);
+		builder.Services.AddSingleton<IAppDispatcher>(appDispatcher);
+		builder.Services.AddSingleton<IErrorHandler>(errorHandler);
+		builder.Services.AddSingleton<IAsyncCommandFactory, AsyncCommandFactory>();
 		builder.Services.AddSingleton<DatabaseService>(databaseService);
+		builder.Services.AddSingleton<SidebarViewModel>();
+		builder.Services.AddSingleton<SidebarPage>();
 		builder
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>

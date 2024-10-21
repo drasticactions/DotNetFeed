@@ -30,11 +30,12 @@ public class DatabaseService : IDisposable
     /// </summary>
     /// <param name="connectionString">Connection String.</param>
     /// <param name="errorHandler">Error Handler.</param>
-    public DatabaseService(string connectionString, IErrorHandler errorHandler)
+    public DatabaseService(string connectionString, IErrorHandler errorHandler, bool initialized = false)
     {
         SQLitePCL.Batteries.Init();
         this.database = new SQLiteAsyncConnection(connectionString, Flags);
         this.errorHandler = errorHandler;
+        this.isInitialized = initialized;
     }
 
     /// <summary>

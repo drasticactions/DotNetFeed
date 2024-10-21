@@ -2,12 +2,20 @@
 // Copyright (c) Drastic Actions. All rights reserved.
 // </copyright>
 
+using DotNetFeed.ViewModels;
+
 namespace DotNetFeed;
 
 public partial class SidebarPage : ContentPage
 {
-    public SidebarPage()
+	private SidebarViewModel viewModel;
+
+    public SidebarPage(SidebarViewModel viewModel)
     {
         this.InitializeComponent();
+		this.viewModel = viewModel;
+        this.BindingContext = this.ViewModel;
     }
+
+	public SidebarViewModel ViewModel => this.viewModel;
 }
