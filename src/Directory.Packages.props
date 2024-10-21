@@ -8,6 +8,7 @@
     <PackageVersion Include="JsonFeed.NET" Version="2.0.0" />
     <PackageVersion Include="AngleSharp" Version="1.2.0-beta.431" />
     <PackageVersion Include="DrasticActions.UI" Version="0.0.1-preview" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0-rc.2.24473.5" />
     <PackageVersion Include="Sagara.FeedReader" Version="2.0.0" />
     <PackageVersion Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.10" />
     <PackageVersion Include="SQLitePCLRaw.bundle_green" Version="2.1.10" />
@@ -17,5 +18,7 @@
     <PackageVersion Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0-rc.2.24473.5" />
     <PackageVersion Include="Microsoft.Maui.Controls" Version="9.0.0-rc.2.24503.2" />
     <PackageVersion Include="RazorBlade" Version="0.6.0" />
+    <PackageVersion Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.1742" />
+    <PackageVersion Include="Microsoft.WindowsAppSDK" Version="1.6.240923002" />
   </ItemGroup>
 </Project>
